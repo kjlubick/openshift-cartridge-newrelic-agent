@@ -20,7 +20,7 @@ Install
 ```
   rhc add-cartridge -a <your_app_name> \
     -e OPENSHIFT_NEWRELIC_LICENSE_KEY=<your_new_relic_key> \
-    -c https://raw.github.com/kjlubick/openshift-cartridge-newrelic-agent/latest/metadata/manifest.yml
+    -c https://raw.github.com/kjlubick/openshift-cartridge-newrelic-agent/v3.14/metadata/manifest.yml
 ```
 
 - Restart your application.
